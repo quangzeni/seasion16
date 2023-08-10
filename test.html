@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const employeeSalaries = {
+  john: 2500,
+  sarah: 3200,
+  mike: 1800,
+  emily: 4000,
+};
+
+let totalSalary = 0;
+
+for (const employee in employeeSalaries) {
+  totalSalary += employeeSalaries[employee];
+}
+
+console.log(`Tổng lương của toàn bộ nhân viên là: ${totalSalary}`);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var menuObj = {
+            width: 10,
+            height: 2,
+            title: 'tôi đẹp trai'
+        }
+        var funcMultiplication = (multiArray) =>{
+            var multi = 1;
+            for(const thuocTinh in multiArray){
+                if(typeof multiArray[thuocTinh] === "number" ){
+                    multi = multi*multiArray[thuocTinh];
+                    console.log(typeof multiArray[thuocTinh])
+                }                
+                else{
+
+                }
+                
+            }console.log('ket qua phep nhan là:', multi);
+        }
+        funcMultiplication(menuObj);
+    </script>
+</body>
+</html>
